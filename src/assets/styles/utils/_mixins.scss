@@ -8,3 +8,10 @@
     font-size: 5.9rem;
   }
 }
+
+@mixin h2($color: $primaryColor, $align: center) {
+  color: $color;
+  font-size: 3rem;
+  text-align: $align;
+  line-height: 1.2;
+}
