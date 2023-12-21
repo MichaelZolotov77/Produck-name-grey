@@ -37,3 +37,9 @@
 .btn {
   @extend %btn;
 }
+.input {
+  @extend %input;
+}
+.textarea {
+  @extend %textarea;
+}
