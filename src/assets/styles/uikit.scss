@@ -34,3 +34,6 @@
 .lead {
   @include lead();
 }
+.btn {
+  @extend %btn;
+}
