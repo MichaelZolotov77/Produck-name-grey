@@ -43,3 +43,9 @@
   line-height: 1.8;
   text-shadow: $mainShadow;
 }
+
+@mixin img($bg: $primaryColor) {
+  object-fit: cover;
+  object-position: center;
+  background-color: $bg;
+}
