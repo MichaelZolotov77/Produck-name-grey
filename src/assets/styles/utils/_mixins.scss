@@ -71,13 +71,18 @@
   line-height: 1;
   border: none;
   border-radius: 0.5rem;
+
+  &::placeholder {
+    color: $secondaryColor;
+  }
 }
 
 %textarea {
   @extend %input;
 
   resize: none;
-  height: 7rem;
+  height: 17rem;
+  font-family: $mainFont;
 }
 
 %btn {

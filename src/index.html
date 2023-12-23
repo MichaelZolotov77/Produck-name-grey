@@ -177,7 +177,7 @@
         <div class="container">
           <h2 class="prices__title">Buy it now</h2>
           <div class="prices__items">
-            <div class="price">
+            <section class="price">
               <h3 class="price__title">Basic</h3>
               <div class="price__sum">100</div>
               <ol class="price__features">
@@ -189,8 +189,8 @@
                 <li class="price__features-item">Aperiam nulla ea neque.</li>
               </ol>
               <a href="#" class="price__btn">Buy</a>
-            </div>
-            <div class="price">
+            </section>
+            <section class="price">
               <h3 class="price__title">Premium</h3>
               <div class="price__sum">150</div>
               <ol class="price__features">
@@ -208,8 +208,8 @@
                   <li class="price__features-item">Aperiam nulla ea neque.</li>
               </ol>
               <a href="#" class="price__btn">Buy</a>
-            </div>
-            <div class="price">
+            </section>
+            <section class="price">
               <h3 class="price__title">Lux</h3>
               <div class="price__sum">200</div>
               <ol class="price__features">
@@ -233,11 +233,63 @@
                   <li class="price__features-item">Aperiam nulla ea neque.</li>
               </ol>
               <a href="#" class="price__btn">Buy</a>
-            </div>
+            </section>
           </div>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="footer__main">
+        <h2 class="footer__title">Contacts</h2>
+        <div class="footer__contacts">
+          <form action="" class="footer__contact-form">
+            <input
+            type="text"
+            class="footer__input"
+            placeholder="Your name:"
+          />
+            <input
+            type="email"
+            class="footer__input"
+            placeholder="Your email:"
+          />
+          <textarea class="footer__textarea">Your message:</textarea>
+          <input type="submit" class="footer__submit" value="send">
+          </form>
+          <div class="footer__contacts-items">
+            <div class="footer__links">
+              <a href="#" class="footer__links-item">
+                <img src="assets/images/skype-icon.png" alt="skype">
+                <span>here_your_login_skype</span>
+              </a>
+              <a href="#" class="footer__links-item">
+                <img src="assets/images/icq-icon.png" alt="isq">
+                <span>279679659</span>
+              </a>
+              <a href="#" class="footer__links-item">
+                <img src="assets/images/email-icon.png" alt="email">
+                <span>psdhtmlcss@mail.ru</span>
+              </a>
+              <a href="#" class="footer__links-item">
+                <img src="assets/images/phone-icon.png" alt="phone">
+                <span>80 00 4568 55 55</span>
+              </a>
+            </div>
+            <div class="social">
+              <a href="#" class="social__icon">l</a>
+              <a href="#" class="social__icon">f</a>
+              <a href="#" class="social__icon">i</a>
+              <a href="#" class="social__icon">g</a>
+              <a href="#" class="social__icon">x</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <p class="footer__copyright-text">
+          Copyright &copy; 2014 Product name · PSD HTML CSS
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
