@@ -5,7 +5,9 @@
 
   @media ($tablet) {
     flex-direction: row;
+    align-items: flex-start;
   }
+
   &__image {
     @include img();
     width: 7.5rem;
